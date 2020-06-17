@@ -7,7 +7,7 @@ import { Container, Cart } from './styles';
 
 import logo from '../../assets/images/logo.svg';
 
-function Header() {
+export default function Header() {
   return (
     <Container>
       <Link to="/">
@@ -24,5 +24,3 @@ function Header() {
     </Container>
   );
 }
-
-export default Header;
